@@ -1,0 +1,54 @@
+body {
+    color: whitesmoke;
+    background: darkblue;
+    font-family: cursive;
+    font-size: 15pt;
+}
+
+main .infofont li {
+    font-size: 15pt;
+}
+
+main h1 {
+    border: 5px solid green;
+}
+
+.flexboxmasterswitch {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+        flex: 1;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+a {
+    color: azure;
+    padding: 0px 0px 0px 10px;
+}
+
+
+@media screen and (max-width: 40rem) {
+
+    header nav,
+    header,
+    main,
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
