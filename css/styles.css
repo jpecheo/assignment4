@@ -52,3 +52,26 @@ a {
         justify-content: center;
     }
 }
+
+
+
+form p {
+    display: flex; 
+    margin-bottom: lem; 
+}
+
+form label {
+    
+}
+
+
+form inpput, textarea, select {
+    flex: 1;
+    margin: 0 1em;
+    border border-radius: 5px; 
+}
+
+
+form select {
+    text-align: center; 
+}
